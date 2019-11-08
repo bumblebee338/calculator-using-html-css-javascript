@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom right,red, green,blue);
+    background-image: url(accountant-1238598_1920.jpg);
+    background-size: cover;
+}
+.main{
+    background-color: black;
+    width: 229px;
+    position: absolute;
+    padding: 10px;
+    margin-top: 12.5%;
+    margin-left: 40%;
+}
+.textview{
+    width: 225px;
+    height: 40px;
+    font-size: 25px;
+}
+.button{
+    width: 50px;
+    font-size: 35px;
+    height: 50px;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+    color: blue;
+}
+.btn-row{
+    height: 107px;
+}
+.btn-col{
+    width: 114px;
+}
+td{
+    padding: 1px;
+}
